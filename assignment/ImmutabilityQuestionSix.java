@@ -10,7 +10,7 @@ public class ImmutabilityQuestionSix {
         // Instead, we create a NEW instance
         Employee updated = new Employee(original.id(), 110000);
 
-        System.out.println("AfterUpdate");
+        System.out.println("After Update");
         System.out.println("Original still exists: " + original + " (High Earner: " + original.isHighEarner(original.salary()) + ")");
         System.out.println("Updated version: " + updated + " (High Earner: " + updated.isHighEarner(updated.salary()) + ")");
 
